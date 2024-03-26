@@ -1,5 +1,5 @@
 'use client'
-import styles from './style.module.scss'
+import styles from './style.module.scss';
 import { useEffect, useState } from 'react';
 import Nav from './nav';
 import { AnimatePresence } from 'framer-motion';
@@ -8,11 +8,10 @@ import { usePathname } from 'next/navigation';
 export default function Home() {
 
   const [isActive, setIsActive] = useState(false);
-  const pathname = usePathname();
 
   useEffect( () => {
-    if(isActive) setIsActive(false)
-  }, [pathname])
+    
+  }, []);
 
   return (
     <>

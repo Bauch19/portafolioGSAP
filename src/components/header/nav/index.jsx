@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+'use client';
+import React, { useState } from 'react';
 import styles from './style.module.scss';
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';

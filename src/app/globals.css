@@ -3,8 +3,13 @@ body{
     z-index: 1 !important;
 }
 
+.menuHeader{
+    width: 100px;
+}
+
 .logo{
     width: 100px;
+    height: 50px;
     object-fit: cover;
 }
 
@@ -35,8 +40,8 @@ body{
     font-size: 16px;
     font-weight: 400;
     position: absolute;
-    z-index: 2;
-    top: 150%;
+    z-index: 3;
+    top: 130%;
     left: 5%;
     text-align: left;
 }
