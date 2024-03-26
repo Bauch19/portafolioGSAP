@@ -1,0 +1,42 @@
+body{
+    background-color: #F6F1EC;
+    z-index: 1 !important;
+}
+
+.logo{
+    width: 100px;
+    object-fit: cover;
+}
+
+.container-fluid{
+    height: 100vh;
+}
+
+.titulo-header{
+    font-size: 32px;
+    color: #2D4777;
+    font-weight: 900;
+    padding-top: 20%;
+}
+
+.banner{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+    filter: brightness(0.5);
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.titulo-header span{
+    color: #F6F1EC;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 2;
+    top: 150%;
+    left: 5%;
+    text-align: left;
+}

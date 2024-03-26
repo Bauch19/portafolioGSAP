@@ -1,0 +1,35 @@
+.link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    .indicator{
+        width: 10px;
+        height: 10px;
+        background-color: #80D1D6;
+        border-radius: 50%;
+        position: absolute;
+        left: -30px;
+    }
+}
+
+.linkActive{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    .indicator{
+        width: 10px;
+        height: 10px;
+        background-color: #80D1D6;
+        border-radius: 50%;
+        position: absolute;
+        left: -30px;
+    }
+
+    a{
+        color: #80D1D6 !important;
+        text-decoration: #80D1D6 !important;
+        text-decoration-color: #80D1D6 !important;
+    }
+}
